@@ -1,0 +1,318 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: rgb(0, 0, 0);
+}
+
+/* Header */
+
+.site {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0),
+    #000000,
+    #000000,
+    #000000,
+    #0f6700,
+    #0f6700
+  );
+  height: 500px;
+  position: relative;
+  border-bottom: 2px solid rgb(36, 255, 0);
+}
+
+/* logo */
+
+.mini_logo a {
+  position: relative;
+  left: 30px;
+  font-family: "Sarina", cursive;
+  top: 40px;
+  font-size: 10px;
+  color: rgb(36, 255, 0);
+  text-decoration: none;
+  border: 1px solid rgb(250, 250, 250);
+  outline: none;
+}
+
+.logo a {
+  position: relative;
+  text-decoration: none;
+  outline: none;
+  left: 90px;
+  top: 15px;
+  font-family: "Sansita", cursive;
+  font-size: 20px;
+  color: rgb(250, 250, 250);
+}
+
+.logo a:hover {
+  color: rgb(36, 255, 0);
+  text-decoration: underline;
+}
+
+.razdelitel {
+  position: relative;
+  color: rgb(250, 250, 250);
+  left: 170px;
+  bottom: 27px;
+}
+
+.logo_img a {
+  position: relative;
+  left: 200px;
+  bottom: 120px;
+  outline: none;
+}
+
+/* logo */
+
+.name_site {
+  position: relative;
+  color: rgb(250, 250, 250);
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  bottom: 150px;
+}
+
+.name_site span {
+  color: rgb(36, 255, 0);
+}
+
+/* Reg|aut */
+
+.sign_IN a {
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  bottom: 390px;
+  left: 900px;
+  font-family: "Comfortaa";
+  font-size: 15px;
+  outline: none;
+}
+
+.sign_IN span {
+  color: rgb(34, 255, 0);
+}
+
+.sign_IN span:hover {
+  color: #24ff00;
+  text-decoration: underline;
+}
+
+.palka {
+  position: relative;
+  color: #fafafa;
+  bottom: 425px;
+  left: 960px;
+  font-family: "Comfortaa";
+  font-size: 16px;
+}
+
+.sign_UP a {
+  position: relative;
+  color: #fafafa;
+  text-decoration: none;
+  bottom: 455px;
+  left: 970px;
+  font-family: "Comfortaa";
+  font-size: 15px;
+  outline: none;
+}
+
+.sign_UP span {
+  color: #24ff00;
+}
+
+.sign_UP span:hover {
+  color: #24ff00;
+  text-decoration: underline;
+}
+
+/* Reg|aut */
+
+/* MENU */
+
+.wrapper {
+  position: relative;
+  left: 1080px;
+  bottom: 490px;
+  background-color: black;
+  width: 300px;
+  color: #24ff00;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
+  height: 50px;
+}
+
+#check-menu {
+  display: none;
+}
+
+label {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+  line-height: 40px;
+}
+
+.main-menu {
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  transform: translateY(100%);
+  max-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  transition: 0.5s all;
+}
+
+.ahref-burger {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  border-top: 1px solid #24ff00;
+  background-color: black;
+}
+
+.ahref-burger:hover {
+  color: #7fff00;
+}
+
+#check-menu:checked ~ .main-menu {
+  max-height: 500px;
+  font-size: 16px;
+}
+
+/* MENU */
+
+/* Header */
+
+/* Main */
+
+.site_main {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #0f6700,
+    #0f6700,
+    #000000,
+    #000000,
+    #000000,
+    #000000
+  );
+  color: #fafafa;
+}
+
+/* Main */
+
+/* footer */
+
+.site_footer {
+  position: static;
+  height: 100px;
+  border-top: 2px solid #24ff00;
+  outline: none;
+  border-bottom: 2px solid #24ff00;
+}
+
+.mini_logo_two a {
+  position: relative;
+  left: 30px;
+  font-family: "Sarina", cursive;
+  top: 40px;
+  font-size: 10px;
+  color: #24ff00;
+  text-decoration: none;
+  border: 1px solid #fafafa;
+  outline: none;
+}
+
+.logo_two a {
+  position: relative;
+  text-decoration: none;
+  outline: none;
+  left: 90px;
+  top: 15px;
+  font-family: "Sansita", cursive;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.logo_two a:hover {
+  color: #24ff00;
+  text-decoration: underline;
+}
+
+.razdelitel_two {
+  position: relative;
+  color: #fafafa;
+  left: 170px;
+  bottom: 30px;
+  width: 2%;
+}
+
+.logo_img_two {
+  position: relative;
+  left: 200px;
+  bottom: 120px;
+  outline: none;
+  width: 5%;
+}
+
+.privacy a {
+  position: relative;
+  color: #fafafa;
+  left: 500px;
+  font-family: "Comfortaa";
+  font-size: 15px;
+  bottom: 210px;
+  outline: none;
+}
+
+.privacy span {
+  color: #24ff00;
+}
+
+.agreement a {
+  position: relative;
+  color: #fafafa;
+  font-family: "Comfortaa";
+  font-size: 15px;
+  outline: none;
+  left: 750px;
+  bottom: 250px;
+}
+
+.agreement span {
+  color: #24ff00;
+}
+
+.footer_list_item {
+  display: inline;
+  outline: none;
+}
+
+.footer_list_item a {
+  position: relative;
+  outline: none;
+  margin-left: 10px;
+  left: 1150px;
+  bottom: 300px;
+}
+
+/* footer */
