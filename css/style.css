@@ -206,6 +206,7 @@ label {
 
 .site_main {
   position: relative;
+  height: 500px;
   background: linear-gradient(
     180deg,
     #0f6700,
@@ -215,39 +216,49 @@ label {
     #000000,
     #000000
   );
-  color: #fafafa;
 }
 
 /* Main */
 
 /* footer */
-
+.footer__margin {
+  margin-top: 15px;
+}
 .site_footer {
   position: static;
   height: 100px;
-  border-top: 2px solid #24ff00;
   outline: none;
-  border-bottom: 2px solid #24ff00;
 }
 
 .mini_logo_two a {
   position: relative;
-  left: 30px;
+  left: 50px;
   font-family: "Sarina", cursive;
-  top: 40px;
   font-size: 10px;
   color: #24ff00;
   text-decoration: none;
   border: 1px solid #fafafa;
   outline: none;
 }
+.mini_logo_two {
+  margin-top: 20px;
+}
 
+.footers {
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid #24ff00;
+  padding-top: 10px;
+}
+.razdelitel_two {
+  margin: 10px;
+  font-size: 2rem;
+}
 .logo_two a {
   position: relative;
+  left: 80px;
   text-decoration: none;
   outline: none;
-  left: 90px;
-  top: 15px;
   font-family: "Sansita", cursive;
   font-size: 20px;
   color: #fafafa;
@@ -255,32 +266,39 @@ label {
 
 .logo_two a:hover {
   color: #24ff00;
-  text-decoration: underline;
 }
 
 .razdelitel_two {
   position: relative;
+  left: 100px;
+  top: 10px;
+  font-size: 25px;
   color: #fafafa;
-  left: 170px;
-  bottom: 30px;
   width: 2%;
 }
 
 .logo_img_two {
-  position: relative;
-  left: 200px;
-  bottom: 120px;
   outline: none;
-  width: 5%;
+}
+.logo_img_two {
+  margin-top: -15px;
+  position: relative;
+  left: 100px;
+}
+.logo_img_two a img {
+  height: 100px;
+}
+.logo_img_two a {
+  display: flex;
 }
 
 .privacy a {
   position: relative;
   color: #fafafa;
-  left: 500px;
+  left: 280px;
   font-family: "Comfortaa";
   font-size: 15px;
-  bottom: 210px;
+
   outline: none;
 }
 
@@ -290,12 +308,11 @@ label {
 
 .agreement a {
   position: relative;
+  left: 500px;
   color: #fafafa;
   font-family: "Comfortaa";
   font-size: 15px;
   outline: none;
-  left: 750px;
-  bottom: 250px;
 }
 
 .agreement span {
@@ -303,16 +320,16 @@ label {
 }
 
 .footer_list_item {
-  display: inline;
   outline: none;
+  float: left;
 }
 
 .footer_list_item a {
-  position: relative;
   outline: none;
-  margin-left: 10px;
-  left: 1150px;
-  bottom: 300px;
+  position: relative;
+  top: 10px;
+  left: 650px;
+  padding: 5px;
 }
 
 /* footer */
