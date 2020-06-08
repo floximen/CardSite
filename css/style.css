@@ -218,6 +218,70 @@ label {
   );
 }
 
+.popular {
+  position: relative;
+  color: rgb(250, 250, 250);
+  bottom: 250px;
+  left: 50px;
+  font-family: "Comfortaa";
+  font-size: 20px;
+}
+
+/* Card */
+
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.card {
+  position: relative;
+  bottom: 250px;
+  width: 250px;
+  height: 350px;
+  border: 2px solid #24ff00;
+  perspective: 1000px;
+}
+.front,
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+.front {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: #24ff00;
+  background-color: black;
+}
+.back {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: #24ff00;
+  background-color: black;
+  transform: rotateY(180deg);
+}
+.card:hover .front {
+  transform: rotateY(180deg);
+}
+.card:hover .back {
+  transform: rotateY(360deg);
+}
+
+/* Card */
+
 /* Main */
 
 /* footer */
