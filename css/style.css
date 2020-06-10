@@ -228,21 +228,19 @@ label {
 }
 
 /* Card */
-
 .wrap {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  line-height: 100%;
+  position: relative;
+  bottom: 270px;
+  border-top: 2px solid #24ff00;
+  border-bottom: 2px solid #24ff00;
 }
-
 .card {
   line-height: normal;
   display: inline-block;
   vertical-align: top;
   margin: 10px;
   position: relative;
-  bottom: 250px;
+  left: 130px;
   width: 250px;
   height: 350px;
   border: 2px solid #24ff00;
@@ -262,10 +260,22 @@ label {
   backface-visibility: hidden;
 }
 .front {
+  float: right;
   font-family: "Dancing Script", cursive;
   font-size: 30px;
   color: #24ff00;
   background-color: black;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+}
+.front span {
+  display: inline;
+  position: relative;
+  top: 10px;
 }
 .back {
   font-family: "Dancing Script", cursive;
@@ -273,6 +283,10 @@ label {
   color: #24ff00;
   background-color: black;
   transform: rotateY(180deg);
+}
+.back span {
+  position: relative;
+  top: 10px;
 }
 .card:hover .front {
   transform: rotateY(180deg);
